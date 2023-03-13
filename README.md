@@ -1,2 +1,87 @@
 # FitnessTrainer
 AI based Fitness Trainer can accurately tracks and updates users on exercises, avoiding inaccuracies.
+# Project Title 
+
+AI Based Fitness Trainer  - Web Application
+AI based Fitness Trainer can accurately tracks and updates users on exercises, avoiding inaccuracies.
+An AI-based fitness trainer can be a personalized virtual coach that utilizes machine learning algorithms to provide tailored workout and nutrition plans to individuals. Here are some of the features that an AI-based fitness trainer could include:
+1.	Personalized workout plans: Based on an individual's fitness goals, level of experience, and physical condition, the AI-based fitness trainer can create customized workout plans that are tailored to their needs. This can include exercises, sets, reps, rest periods, and more.
+2.	Real-time feedback: During workouts, the AI-based fitness trainer can provide real-time feedback to individuals, analyzing their form and providing tips and corrections to help them perform exercises correctly and safely.
+3.	Nutrition planning: Along with workout plans, the AI-based fitness trainer can provide customized nutrition plans based on an individual's fitness goals, dietary preferences, and nutritional needs.
+4.	Progress tracking: The AI-based fitness trainer can track an individual's progress over time, providing insights and feedback on their performance and suggesting modifications to their plans as needed.
+5.	Personalized recommendations: Based on an individual's progress, the AI-based fitness trainer can make personalized recommendations for changes to their workout and nutrition plans, adapting to their evolving needs and preferences.
+============================================================================================================================================================================================================================================================================================================================================================================================================================
+
+# Installation
+
+AI Based Fitness Trainer is developed using Python and  Django. Django is a popular web framework for Python that is designed to help developers build web applications quickly and efficiently. It provides a high-level framework for web development, including a powerful ORM (Object-Relational Mapping) system, built-in security features, and a customizable admin interface.
+Other major packages includes OpenCV, pandas, mediapipe. OpenCV (Open Source Computer Vision) is a library of computer vision and machine learning algorithms developed by Intel. It is widely used for real-time image and video processing, object detection and tracking, facial recognition, and more.
+Install Python if it's not already installed.
+Install the OpenCV package using pip by running pip install opencv-python in the command prompt or terminal.
+Verify the installation by running import cv2 in Python.
+
+MediaPipe is a cross-platform framework for building multimodal applied machine learning pipelines. It provides easy-to-use Python APIs for building real-time computer vision, audio, and sensor-based applications. One of the key features of MediaPipe is its pre-built, customizable pipelines for common perception tasks like object detection, hand tracking, pose estimation, face detection and tracking, and more.
+Install the MediaPipe package using pip by running pip install mediapipe in the command prompt or terminal.
+Verify the installation by running import mediapipe in Python.
+============================================================================================================================================================================================================================================================================================================================================================================================================================
+
+HOW TO RUN
+
+Download repository from github using URL:
+
+
+Go to the code directory
+open code in IDLE 
+Activate virtual environment
+Process:
+How to install virtualenv:
+Install pip first
+sudo apt-get install python3-pip
+Then install virtualenv using pip3
+sudo pip3 install virtualenv 
+Now create a virtual environment
+virtualenv venv 
+you can use any name insted of venv
+You can also use a Python interpreter of your choice
+virtualenv -p /usr/bin/python2.7 venv
+Active your virtual environment:
+source venv/bin/activate
+Using fish shell:
+source venv/bin/activate.fish
+To deactivate:
+deactivate
+
+==============================================================================================================================================================================================================
+RUN Project
+commands:
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+==============================================================================================================================================================================================================
+Login page URL : http://127.0.0.1:8000/
+Admin panel URL : http://127.0.0.1:8000/
+user:atif
+password: atif
+==============================================================================================================================================================================================================
+Database
+sqlite3 DB is used with this project
+
+SQLite is a lightweight, serverless, and self-contained relational database management system that is 
+widely used in small to medium-sized applications. It is a file-based database that stores data in a structured 
+manner and provides a SQL interface for managing data. SQLite is easy to use, fast, and reliable.
+==============================================================================================================================================================================================================
+
+#Contributions
+
+Muhammad Waseem
+Having experience in AI and machine learning, I have contributed to the development of the AI-based fitness trainer's algorithms that analyze images, videos to provide personalized feedback and recommendations. I have also developed machine learning models that can detect errors in exercise form and posture.
+I have also some knowledge of computer vision, I have contributed to the development of the AI-based fitness trainer's image and video analysis capabilities. It includes developing computer vision models that can detect and track movements during exercises, analyze body posture, and identify areas of improvement for users.
+
+Umar Farooq
+Having experience in web development, He has contributed to the development of the user interface and experience for the AI-based fitness trainer. This may include developing a user-friendly interface for accessing workout plans, tracking progress, and receiving personalized feedback.
+
+Shoaib Akhtar
+With the help of experience in health and fitness, he has contributed to the development of the AI-based fitness trainer's exercise plans and nutrition recommendations. It also includes the development of exercise programs tailored to specific user needs, such as weight loss or muscle building, and developing personalized nutrition plans that take into account factors such as dietary restrictions and nutritional goals.
+I also contributed in the development of the AI-based fitness trainer by testing its functionality and effectiveness. It includes the evaluating the trainer's ability to provide accurate feedback and recommendations and testing its performance across different devices and user groups.
+
+======================================================================================================================================================================================================================================================================================================================================================================================================================================================
